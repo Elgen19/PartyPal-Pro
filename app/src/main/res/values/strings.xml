@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">PartyPal Pro</string>
+    <string name="guest">Guest</string>
+    <string name="task">Task</string>
+    <string name="menu">Menu</string>
+    <string name="add_guest">Add Guest</string>
+    <string name="guest_name">Guest Name</string>
+    <string name="guest_email">Guest Email</string>
+    <string name="rsvp">RSVP</string>
+    <string name="edit_or_delete_guest">Edit or Delete Guest</string>
+    <string name="update_guest">Update Guest</string>
+    <string name="delete_guest">Delete Guest</string>
+    <string name="add_task">Add Task</string>
+    <string name="enter_task">Enter Task</string>
+    <string name="todo_list">Todo List</string>
+    <string name="enter_task_name">Enter Task Name</string>
+    <string name="on_going">On going</string>
+    <string name="edit_or_delete_task">Edit or Delete Task</string>
+    <string name="update_task">Update Task</string>
+    <string name="delete_task">Delete Task</string>
+    <string name="no_guest_was_added_at_this_moment">No guest was added at this moment.</string>
+    <string name="no_task_was_added_at_this_moment">No task was added at this moment</string>
+    <string name="set_a_reminder_for_this_task">Set a reminder for this task</string>
+    <string name="no_time_set">No time set for this task</string>
+    <string name="reminder_message">The task will end at %s</string>
+    <string name="set_alarm">Set alarm</string>
+
+</resources>

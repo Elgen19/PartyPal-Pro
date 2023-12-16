@@ -1,0 +1,9 @@
+<!-- res/values/arrays.xml -->
+<resources>
+    <array name="rsvp_statuses">
+        <item>Attending</item>
+        <item>Not Attending</item>
+        <item>No Response</item>
+        <item>Do Not Include</item>
+    </array>
+</resources>

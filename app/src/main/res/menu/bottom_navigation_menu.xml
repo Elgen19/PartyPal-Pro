@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/guest"
+        android:icon="@drawable/guest_icon"
+        android:title="@string/guest" />
+
+    <item
+        android:id="@+id/task"
+        android:icon="@drawable/task_icon"
+        android:title="@string/task" />
+</menu>

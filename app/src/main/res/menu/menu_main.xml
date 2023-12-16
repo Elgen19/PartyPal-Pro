@@ -1,0 +1,14 @@
+<!-- menu_main.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <!-- Add Guest menu item -->
+    <item
+        android:id="@+id/menuItemAddGuest"
+        android:title="@string/add_guest"
+        app:showAsAction="never"
+        android:icon="@drawable/guest_icon" />
+
+</menu>
