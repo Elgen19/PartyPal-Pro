@@ -9,4 +9,19 @@
         android:id="@+id/task"
         android:icon="@drawable/task_icon"
         android:title="@string/task" />
+
+    <item
+        android:id="@+id/invite"
+        android:icon="@drawable/invite_icon"
+        android:title="@string/invite" />
+
+    <item
+        android:id="@+id/decorations"
+        android:icon="@drawable/decor_icon"
+        android:title="decors" />
+
+    <item
+        android:id="@+id/catering"
+        android:icon="@drawable/cater_icon"
+        android:title="catering" />
 </menu>

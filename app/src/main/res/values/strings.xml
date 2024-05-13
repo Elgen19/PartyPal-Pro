@@ -24,5 +24,11 @@
     <string name="no_time_set">No time set for this task</string>
     <string name="reminder_message">The task will end at %s</string>
     <string name="set_alarm">Set alarm</string>
+    <string name="invite">Invite</string>
+    <string name="select_a_theme">Select a Theme</string>
+    <string name="select_caterer_prompt">Select a Caterer</string>
+    <string name="order_summary_placeholder">Total Cost: 0$</string>
+    <string name="confirm_order_button_text">Calculate</string>
+
 
 </resources>

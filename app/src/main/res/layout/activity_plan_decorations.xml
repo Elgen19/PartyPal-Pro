@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Theme Selection Header -->
+    <TextView
+        android:id="@+id/textViewThemeSelectionHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/select_a_theme"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="16dp" />
+
+    <!-- Spinner for Theme Selection -->
+    <Spinner
+        android:id="@+id/spinnerThemes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/themes_array"
+        android:minHeight="48dp"
+        android:padding="8dp" />
+
+    <!-- Theme Details Container (Initially Hidden) -->
+    <LinearLayout
+        android:id="@+id/layoutThemeDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:padding="16dp">
+
+          <!-- Theme Description -->
+        <TextView
+            android:id="@+id/textViewThemeDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <!-- Theme Image -->
+        <ImageView
+            android:id="@+id/imageViewTheme"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:paddingBottom="8dp" />
+
+        <!-- Materials Needed -->
+        <TextView
+            android:id="@+id/textViewMaterialsNeeded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+</LinearLayout>

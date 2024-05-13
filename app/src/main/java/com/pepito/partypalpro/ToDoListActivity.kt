@@ -41,25 +41,6 @@ class ToDoListActivity : AppCompatActivity() {
             addTask()
         }
 
-        // Set up BottomNavigationView
-        binding.bottomNavigationView.setOnItemSelectedListener { menuItem ->
-            when (menuItem.itemId) {
-                R.id.guest -> {
-                    // Redirect to MainActivity when the "Guest" item is clicked
-                    startActivity(Intent(this, MainActivity::class.java))
-                    true
-                }
-                R.id.task -> {
-                    // Handle necessary actions
-
-                    true
-                }
-                else -> false
-            }
-        }
-
-        // Explicitly set the selected item to "Task"
-        binding.bottomNavigationView.selectedItemId = R.id.task
 
         // Load existing tasks from the Room database
         loadTasks()
