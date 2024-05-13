@@ -48,6 +48,25 @@ class MainActivity : AppCompatActivity() {
                     startActivity(Intent(this, ToDoListActivity::class.java))
                     true
                 }
+
+                R.id.invite -> {
+                    // Redirect to ToDoListActivity when the "Task" item is clicked
+                    startActivity(Intent(this, SendInvitationActivity::class.java))
+                    true
+                }
+
+                R.id.decorations -> {
+                    // Redirect to ToDoListActivity when the "Task" item is clicked
+                    startActivity(Intent(this, PlanDecorationsActivity::class.java))
+                    true
+                }
+
+                R.id.catering -> {
+                    // Redirect to ToDoListActivity when the "Task" item is clicked
+                    startActivity(Intent(this, CateringActivity::class.java))
+                    true
+                }
+
                 else -> false
             }
         }

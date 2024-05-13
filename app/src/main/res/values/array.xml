@@ -6,4 +6,27 @@
         <item>No Response</item>
         <item>Do Not Include</item>
     </array>
+
+
+    <string-array name="themes_array">
+        <item>Birthday Party</item>
+        <item>Wedding Celebration</item>
+        <item>Baby Shower</item>
+        <item>Graduation Party</item>
+        <item>Halloween Bash</item>
+        <item>Christmas Gala</item>
+        <item>New Year\'s Eve</item>
+        <item>Anniversary Dinner</item>
+        <item>Corporate Event</item>
+        <!-- Add more themes as needed -->
+    </string-array>
+
+    <string-array name="caterers">
+        <item>Delicious Delights Catering</item>
+        <item>Gourmet Gatherings</item>
+        <item>Savor &amp; Serve Catering Co.</item>
+    </string-array>
+
+
+
 </resources>

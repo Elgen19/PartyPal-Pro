@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Caterer Selection Spinner -->
+    <Spinner
+        android:id="@+id/catererSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:minHeight="48dp"
+        android:entries="@array/caterers"
+        android:prompt="@string/select_caterer_prompt" />
+
+    <!-- Menu Items RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/menuRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/catererSpinner"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Order Summary -->
+    <TextView
+        android:id="@+id/orderSummaryTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menuRecyclerView"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp"
+        android:paddingTop="32dp"
+        android:text="@string/order_summary_placeholder"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <!-- Confirm Order Button -->
+    <Button
+        android:id="@+id/confirmOrderButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/confirm_order_button_text" />
+
+</RelativeLayout>
